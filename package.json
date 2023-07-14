@@ -1,0 +1,25 @@
+{
+  "name": "husky",
+  "version": "1.0.0",
+  "description": "Formatting and linting using husky and ES Lint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jay-lenz/test-repo.git"
+  },
+  "author": "Jenyo Oyebode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jay-lenz/test-repo/issues"
+  },
+  "homepage": "https://github.com/jay-lenz/test-repo#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
